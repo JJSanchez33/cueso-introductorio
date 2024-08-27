@@ -19,3 +19,4 @@ test('encuentra el elemento en un array con un solo elemento', () => {
 test('encuentra el elemento en un array con varios elementos iguales', () => {
    expect(encontrarElemento(2, [2, 2, 2])).toBe(0);
 });
+

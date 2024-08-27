@@ -5,6 +5,21 @@ function continueStatement(num) {
   // se continúa con la siguiente iteración.
   // PISTA: Utiliza el statement 'continue'.
   // Tu código:
-}
+  const nuevoArrayuni=[]
+  for(let i=0; i < 10;i++){
+    if(i === 5){
+      continue
+    }
+     nuevoArrayuni.push(num +=2)
+    
+    }
+    return nuevoArrayuni
+    
+      
+      
+  }
+ 
+             
+  
 
 module.exports = continueStatement;
